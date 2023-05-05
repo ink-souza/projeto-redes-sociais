@@ -34,8 +34,8 @@ iframe#tela{
     position: relative;
     top:64px ;
     left:18px ;
-    width: 220px;
-    height: 380px;
+    width: 214.5px;
+    height: 378.6px;
 }
 
 nav{
@@ -45,13 +45,15 @@ nav> a >img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+    box-sizing: border-box;
 }
 
 nav > a >img:hover{
-    transition: 0.7s;
-    border: 1.5px solid white;
-    
+    transition: 0.21s, border 0s;
+    border: 2px solid rgba(255, 255, 255, 0.767);
+    transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
 }
 
 
